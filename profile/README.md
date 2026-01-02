@@ -104,8 +104,8 @@
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/blaybus-hackathon/dolbom">
-        <b>🔙 dolbom</b>
+      <a href="https://github.com/blaybus-hackathon/backend">
+        <b>🔙 backend</b>
       </a>
     </td>
     <td>Backend API Server</td>
@@ -188,12 +188,12 @@
 ### Backend
 
 ```bash
-git clone https://github.com/blaybus-hackathon/dolbom.git
-cd dolbom
+git clone https://github.com/blaybus-hackathon/backend.git
+cd backend
 ./gradlew bootRun
 ```
 
-👉 자세한 내용은 [Backend Documentation](https://github.com/blaybus-hackathon/dolbom/tree/main/docs)을 참고하세요.
+👉 자세한 내용은 [Backend Documentation](https://github.com/blaybus-hackathon/backend/tree/main/docs)을 참고하세요.
 
 ### Frontend
 
