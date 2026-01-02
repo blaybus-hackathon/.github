@@ -2,7 +2,7 @@
 <div align="center">
 
   <!-- 로고 이미지 (GitHub에 업로드 후 경로 수정 필요) -->
-  <img src="logo.png" alt="돌봄워크 로고" width="200"/>
+  <img src="스크린샷 2026-01-02 오후 4.38.25.png" alt="돌봄워크 로고" width="200"/>
 
   <br/><br/>
 
