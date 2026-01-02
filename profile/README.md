@@ -1,7 +1,10 @@
 <!-- Header Banner -->
 <div align="center">
 
-  # 돌봄워크 (Dolbomwork)
+  <!-- 로고 이미지 (GitHub에 업로드 후 경로 수정 필요) -->
+  <img src="logo.png" alt="돌봄워크 로고" width="200"/>
+
+  <br/><br/>
 
   ### 요양보호사와 돌봄이 필요한 분을 연결하는 스마트 매칭 플랫폼
 
@@ -62,6 +65,28 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+---
+
+<br/>
+
+## 📱 서비스 미리보기
+
+<div align="center">
+
+  <!-- 스크린샷 이미지 (GitHub에 업로드 후 경로 수정 필요) -->
+  <img src="login.png" alt="로그인 화면" width="250"/>
+  &nbsp;&nbsp;
+  <img src="home.png" alt="홈 대시보드" width="250"/>
+  &nbsp;&nbsp;
+  <img src="manage_matching.png" alt="매칭 관리 화면" width="250"/>
+
+  <br/>
+  <sub>로그인 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 홈 대시보드 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 매칭 관리</sub>
+
+</div>
 
 <br/>
 
