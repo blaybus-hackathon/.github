@@ -1,92 +1,164 @@
-<h1 align="center">
-  블레이버스 해커톤 - 은하수 개발단
-</h1>
+<!-- Header Banner -->
+<div align="center">
 
-<p align="center">
-  <strong>돌봄이 필요한 분과 요양보호사를 연결하는 매칭 플랫폼</strong>
-</p>
+  # 돌봄워크 (Dolbomwork)
 
-<p align="center">
-  <a href="https://dolbom-work.co.kr">서비스 바로가기</a> •
-  <a href="https://blaybus.notion.site/?pvs=73">프로젝트 노션</a> •
-  <a href="https://future-level-ab5.notion.site/MVP-62e98829ddb54005a77c8e40ef270aa6">기획 문서</a>
-</p>
+  ### 요양보호사와 돌봄이 필요한 분을 연결하는 스마트 매칭 플랫폼
 
----
+  <br/>
 
-## 프로젝트 소개
+  [![Service](https://img.shields.io/badge/Service-dolbom--work.co.kr-0066FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://dolbom-work.co.kr)
+  [![Notion](https://img.shields.io/badge/Notion-Team_Workspace-000000?style=for-the-badge&logo=notion&logoColor=white)](https://blaybus.notion.site/?pvs=73)
+  [![Planning](https://img.shields.io/badge/MVP-기획문서-FF6B6B?style=for-the-badge&logo=notion&logoColor=white)](https://future-level-ab5.notion.site/MVP-62e98829ddb54005a77c8e40ef270aa6)
 
-**돌봄워크(DolbomWork)** 은 고령화 사회에서 요양보호사와 돌봄이 필요한 환자(또는 보호자)를 효율적으로 매칭해주는 플랫폼입니다.
+</div>
 
-### 핵심 가치
-
-- 요양보호사의 경력, 자격증, 근무 조건을 기반으로 최적의 매칭 제공
-- 실시간 채팅을 통한 원활한 소통
-- 요양 센터 관리 기능으로 효율적인 운영 지원
+<br/>
 
 ---
 
-## 저장소
+<br/>
 
-| 저장소 | 설명 | 기술 스택 |
-|--------|------|-----------|
-| [dolbom](https://github.com/blaybus-hackathon/dolbom) | Backend API Server | Java 17, Spring Boot 3.4, MySQL, Redis |
-| [frontend](https://github.com/blaybus-hackathon/frontend) | Frontend Application | - |
+## 🎯 프로젝트 소개
+
+> **고령화 시대, 돌봄의 새로운 연결고리**
+
+돌봄워크는 **요양보호사**와 **돌봄이 필요한 분(또는 보호자)** 을 효율적으로 매칭해주는 플랫폼입니다.
+복잡한 구인/구직 과정을 간소화하고, 최적의 매칭을 통해 양질의 돌봄 서비스를 제공합니다.
+
+<br/>
+
+### ✨ 핵심 기능
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <br/>
+      <b>🤝 스마트 매칭</b>
+      <br/><br/>
+      <sub>요양보호사의 경력, 자격증,<br/>근무 조건을 분석하여<br/>최적의 매칭 제공</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <b>💬 실시간 채팅</b>
+      <br/><br/>
+      <sub>WebSocket 기반<br/>실시간 채팅으로<br/>원활한 소통 지원</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <b>📋 프로필 관리</b>
+      <br/><br/>
+      <sub>경력, 자격증, 근무조건 등<br/>상세 프로필로<br/>신뢰도 향상</sub>
+      <br/><br/>
+    </td>
+    <td align="center" width="25%">
+      <br/>
+      <b>🏢 센터 관리</b>
+      <br/><br/>
+      <sub>요양 센터 운영을 위한<br/>통합 관리 기능<br/>제공</sub>
+      <br/><br/>
+    </td>
+  </tr>
+</table>
+
+<br/>
 
 ---
 
-## 기술 스택
+<br/>
+
+## 📦 저장소
+
+<table>
+  <tr>
+    <th>Repository</th>
+    <th>Description</th>
+    <th>Tech Stack</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/blaybus-hackathon/dolbom">
+        <b>🔙 dolbom</b>
+      </a>
+    </td>
+    <td>Backend API Server</td>
+    <td>
+      <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
+      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/blaybus-hackathon/frontend">
+        <b>🎨 frontend</b>
+      </a>
+    </td>
+    <td>Frontend Application</td>
+    <td>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+---
+
+<br/>
+
+## 🛠 기술 스택
+
+<div align="center">
 
 ### Backend
-<p>
-  <img src="https://img.shields.io/badge/Java-17-orange?style=flat-square&logo=openjdk&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring%20Boot-3.4.2-6DB33F?style=flat-square&logo=springboot&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-8.0-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-  <img src="https://img.shields.io/badge/QueryDSL-5.0-blue?style=flat-square"/>
-</p>
+![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot_3.4-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL_8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-0769AD?style=for-the-badge)
 
 ### Infrastructure
-<p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
-</p>
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ### Communication
-<p>
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black"/>
-</p>
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+
+</div>
+
+<br/>
 
 ---
 
-## 팀 소개
+<br/>
 
-### 은하수 개발단
+## 📚 프로젝트 자료
 
-| 역할 | 담당 |
-|------|------|
-| 기획 | - |
-| 디자인 | - |
-| Frontend | - |
-| Backend | - |
+<div align="center">
 
----
+| 📄 문서 | 🔗 링크 |
+|:------:|:------:|
+| MVP 기획 문서 | [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://future-level-ab5.notion.site/MVP-62e98829ddb54005a77c8e40ef270aa6) |
+| 프로젝트 노션 | [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://blaybus.notion.site/?pvs=73) |
+| ERD 설계 | [![ERDCloud](https://img.shields.io/badge/ERDCloud-0066FF?style=flat-square)](https://www.erdcloud.com/d/Ps5YSRwrTa7Jfwgk4) |
+| WBS | [![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/2025-195cfd33022780dcab69c54d21d85e1a?pvs=4) |
 
-## 프로젝트 자료
+</div>
 
-| 자료 | 링크 |
-|------|------|
-| MVP 기획 문서 | [Notion](https://future-level-ab5.notion.site/MVP-62e98829ddb54005a77c8e40ef270aa6) |
-| 프로젝트 노션 | [Notion](https://blaybus.notion.site/?pvs=73) |
-| ERD | [ERDCloud](https://www.erdcloud.com/d/Ps5YSRwrTa7Jfwgk4) |
-| WBS | [Notion](https://www.notion.so/2025-195cfd33022780dcab69c54d21d85e1a?pvs=4) |
+<br/>
 
 ---
 
-## 시작하기
+<br/>
+
+## 🚀 시작하기
 
 ### Backend
 
@@ -96,20 +168,28 @@ cd dolbom
 ./gradlew bootRun
 ```
 
-자세한 내용은 [Backend README](https://github.com/blaybus-hackathon/dolbom#readme)를 참고하세요.
+👉 자세한 내용은 [Backend Documentation](https://github.com/blaybus-hackathon/dolbom/tree/main/docs)을 참고하세요.
 
 ### Frontend
 
 ```bash
 git clone https://github.com/blaybus-hackathon/frontend.git
 cd frontend
-# 프론트엔드 실행 명령어
+npm install && npm run dev
 ```
 
-자세한 내용은 [Frontend README](https://github.com/blaybus-hackathon/frontend#readme)를 참고하세요.
+👉 자세한 내용은 [Frontend README](https://github.com/blaybus-hackathon/frontend#readme)를 참고하세요.
+
+<br/>
 
 ---
 
-<p align="center">
-  <sub>Built with ❤️ by 은하수 개발단</sub>
-</p>
+<br/>
+
+<div align="center">
+
+  **Made with ❤️ by 은하수 개발단**
+
+  <sub>Blaybus Hackathon 2025</sub>
+
+</div>
